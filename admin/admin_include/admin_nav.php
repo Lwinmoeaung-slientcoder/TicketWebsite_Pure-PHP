@@ -5,7 +5,7 @@
 <h1>ADMIN PANEL</h1>
     <hr>
 
-            <div class="col-sm-2">
+            <div class="col-md-2">
               <div class="list-group ">
                 <a href="index.php" class="list-group-item list-group-item-action bg-dark">Dashboard</a>
                 <a href="admin_list.php" class="list-group-item list-group-item-action bg-dark">Admin list</a>

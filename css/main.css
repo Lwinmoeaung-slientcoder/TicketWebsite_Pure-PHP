@@ -3528,10 +3528,12 @@ dl.accordion.time-line:before {
 .post-content-area .single-post .comments .lnr {
   font-weight: 900;
   color: #222;
+  
 }
 
 .post-content-area .single-post .feature-img img {
   width: 100%;
+  padding-top: 50px;
 }
 
 .post-content-area .single-post .posts-title h3 {

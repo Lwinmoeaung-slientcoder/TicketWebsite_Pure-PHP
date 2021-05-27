@@ -105,7 +105,7 @@ require_once "config/dbconfig.php";
 					 <div class="single-post row">
 						 <div class="col-lg-3  col-md-3 meta-details">
 
-							 <div class="user-details row">
+							 <div class="user-details row" style="padding-top: 50px">
 								 <p class="user-name col-lg-12 col-md-12 col-6"><a href=""><?php echo $name; ?></a> <span class="lnr lnr-user"></span></p>
 								 <p class="date col-lg-12 col-md-12 col-6"><a href=""><?php echo $date; ?></a> <span class="lnr lnr-calendar-full"></span></p>
 								 <p class="view col-lg-12 col-md-12 col-6"><a href=""><?php echo $situation; ?></a> <span class="lnr lnr-eye"></span></p>
@@ -114,7 +114,7 @@ require_once "config/dbconfig.php";
 						 </div>
 						 <div class="col-lg-9 col-md-9 ">
 							 <div class="feature-img">
-								 <img class="img-fluid" src=<?php echo $imagefilepath.$img; ?> style="height:383px;width:383px;"alt="">
+								 <img class="img-fluid" src=<?php echo $imagefilepath.$img; ?> style="height:300px;width:400px;"alt="">
 							 </div>
 							 <a class="posts-title" href=""><h3><?php echo $title;?></h3></a>
 							 <p class="excert">

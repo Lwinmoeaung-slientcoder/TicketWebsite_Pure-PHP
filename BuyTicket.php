@@ -3,7 +3,7 @@ ob_start();
 session_start();
 include_once "Nav.php";
 require_once "config/dbconfig.php";
-$imagefilepath="admin/images/InformationImage/";
+$imagefilepath="admin/images/EventsImage/";
 $videofilepath="admin/video/";
 if (isset($_POST['detail'])) {
   // code...

@@ -29,7 +29,7 @@ if ($_SESSION['login_Auth']==1) {
             </div>
             <div class="form-group" id="pwd2">
                 <label for="" class="control-label">Answer</label>
-                <input type="text" class="form-control" name="answer" required="">
+                <textarea  class="form-control" name="answer" required=""></textarea>
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" name="create" value="Create">

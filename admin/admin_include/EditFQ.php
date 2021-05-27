@@ -22,7 +22,7 @@
              </div>
              <div class="form-group">
                  <label for="" class="control-label">Answer</label>
-                 <input type="text" class="form-control" name="answer" value="<?php echo $answer;?>">
+                 <textarea class="form-control" name="answer" value="<?php echo $answer;?>"></textarea>
              </div>
              <div class="form-group">
                 <button type="submit" class="btn btn-danger btn-sm" name="edit" value="<?php echo $fq_id ?>">Edit</button></td>

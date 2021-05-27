@@ -49,7 +49,9 @@ if ($_SESSION['login_Auth']==1) {
 ?>
 
 <form action="#" method="post" enctype="multipart/form-data">
-  <div class="col-sm-10">
+
+  <div class="col-md-10">
+  <label for="" class="control-label"><font size="4" color="Green">Event Information</font></label></br></br>
     <font color="white">
             <div class="form-group">
                 <label for="" class="control-label">Author Name</label>
@@ -83,46 +85,46 @@ if ($_SESSION['login_Auth']==1) {
                 <input type="submit" class="btn btn-primary" name="create" value="Create">
             </div>
           </font>
-          </div>
+          
+          
 </form>
-
+</br></br>
 <!-- Album -->
-<form action="#" method="post" enctype="multipart/form-data">
-  <div class="col-sm-10">
-    <font color="white">
-            <div class="form-group">
-                <label for="" class="control-label">Image1</label>
-                <input type="file" class="form-control" name="image1" required="">
-            </div>
-            <div class="form-group">
-                <label for="" class="control-label">Image2</label>
-                <input type="file" class="form-control" name="image2" required="">
-            </div>
-            <div class="form-group">
-                <label for="" class="control-label">Image3</label>
-                  <input type="file" class="form-control" name="image3" required="">
-            </div>
-            <div class="form-group">
-                <label for="" class="control-label">Image4</label>
-                <input type="file" class="form-control" name="image4" required="">
-            </div>
-            <div class="form-group">
-                <label for="" class="control-label">Image5</label>
-                <input type="file" class="form-control" name="image5" required="">
-            </div>
-            <div class="form-group">
-                <label for="" class="control-label">Image6</label>
-                <input type="file" class="form-control" name="image6" required="">
-            </div>
-            <div class="form-group">
-                <label for="" class="control-label">Image7</label>
-                <input type="file" class="form-control" name="image7" required="">
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-danger" name="album" value="Album upload">
-            </div>
-          </font>
-          </div>
+<form action="#" method="post" enctype="multipart/form-data"> 
+        <label for="" class="control-label"><font size="4" color="Green">Create Event Album</font></label></br></br>
+        <font color="white">
+                <div class="form-group">
+                    <label for="" class="control-label">Image1</label>
+                    <input type="file" class="form-control" name="image1" required="">
+                </div>
+                <div class="form-group">
+                    <label for="" class="control-label">Image2</label>
+                    <input type="file" class="form-control" name="image2" required="">
+                </div>
+                <div class="form-group">
+                    <label for="" class="control-label">Image3</label>
+                    <input type="file" class="form-control" name="image3" required="">
+                </div>
+                <div class="form-group">
+                    <label for="" class="control-label">Image4</label>
+                    <input type="file" class="form-control" name="image4" required="">
+                </div>
+                <div class="form-group">
+                    <label for="" class="control-label">Image5</label>
+                    <input type="file" class="form-control" name="image5" required="">
+                </div>
+                <div class="form-group">
+                    <label for="" class="control-label">Image6</label>
+                    <input type="file" class="form-control" name="image6" required="">
+                </div>
+                <div class="form-group">
+                    <label for="" class="control-label">Image7</label>
+                    <input type="file" class="form-control" name="image7" required="">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-danger" name="album" value="Album upload">
+                </div>
+            </font>
 </form>
 
 <?php

@@ -12,14 +12,15 @@
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-               <img class="image img-fluid" src=<?php echo $imagefilepath.$img; ?> alt="">
+               <img class="image img-fluid" src=<?php echo $imagefilepath.$img; ?> style="height:300px;width:400px;" >
             </div>
         <a href=<?php echo $imagefilepath.$img; ?> class="img-pop-up">
                     <div class="middle">
-                    <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                    <div class="text align-self-center d-flex"><img src="img/preview.png" style="height:200px;width:200px;"></div>
                     </div>
         </a>
           </div>
+          <div class="clearfix"></div>
         <div class="p-inner">
         <h4><?php echo $img_name ?></h4>
         <div class="cat"><?php echo $img_date; ?></div>
